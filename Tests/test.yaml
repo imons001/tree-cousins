@@ -1,0 +1,12 @@
+test:
+  timelimit: 10
+  launch: ./cousins
+dueDate: 07/08/2023
+latePenalties: [10, 20, 100]
+build:
+  command: make
+  weight: 4
+  studentFiles:
+    include: ["familyTree.cpp"]
+  instructorFiles:
+    exclude: ["familyTree.cpp"]
